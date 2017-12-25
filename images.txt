@@ -1,0 +1,18 @@
+Images
+Basic opt images
+Basic optimizing images includes:
+-canvas reducing (delete white/transparent/black borders)
+-reducing color depth
+-delete comments and stuff from EXIF
+-convert to appropriate format
+
+Compress images
+-JPEG-targeted options: jpegtran or jpegoptim (av only for Linux, execute with parameter --strip-all)
+-PNG-targeted: OptiPNG or PNGOUT.
+
+PNG is much better than GIF, though in older (mobile) browser PNG support is limited
+GIF could be used for very small, or very simple images (10x10px or 3-color) or for animated resources
+Use JPG for photos
+
+https://developers.google.com/speed/docs/insights/ConfigureViewport
+https://developers.google.com/speed/docs/insights/SizeTapTargetsAppropriately
